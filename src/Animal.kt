@@ -1,8 +1,8 @@
 open class Animal {
 
-    open val image = ""
-    open val food = ""
-    open val habitat = ""
+    open var image = ""
+    open var food = ""
+    open var habitat = ""
     var hunger = 10
 
     open fun makeNoise() {
